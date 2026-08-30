@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Fiktives Portfolio-Konzept: Virela zeigt eine responsive Smart-Gardening-Landingpage für kleine Stadtbalkone.",
   icons: {
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/favicon.svg`,
+    icon: `${process.env.NEXT_PUBLIC_VIRELA_BASE_PATH ?? ""}/favicon.svg`,
   },
 };
 
