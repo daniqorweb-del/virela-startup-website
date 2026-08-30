@@ -3,7 +3,7 @@
 import { FormEvent, useState } from "react";
 import Image from "next/image";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const basePath = process.env.NEXT_PUBLIC_VIRELA_BASE_PATH ?? "";
 const assetPath = (path: string) => `${basePath}${path}`;
 
 const faqs = [
