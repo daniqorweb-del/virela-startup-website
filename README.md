@@ -34,15 +34,6 @@ npm run dev
 
 Anschließend ist die Website unter `http://localhost:3000` erreichbar.
 
-## Produktions-Build
-
-```bash
-npm run build
-npm start
-```
-
-Der Build erzeugt eine vollständig statische Website im Ordner `out`. Dort befindet sich auch die von GitHub Pages benötigte `index.html`.
-
 
 ## Projektstruktur
 
