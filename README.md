@@ -2,6 +2,10 @@
 
 Eine responsive Startup-Landingpage für ein fiktives Smart-Gardening-Unternehmen. Das Portfolio-Projekt verbindet Markenentwicklung, UI/UX-Design und Frontend-Entwicklung zu einem vollständigen digitalen Auftritt.
 
+## Live Demo
+
+https://daniqorweb-del.github.io/virela-startup-website/
+
 ## Projektüberblick
 
 Virela ist ein modulares Pflanzsystem mit intelligenter Bewässerung für kleine Stadtbalkone. Die Website vermittelt das Produktkonzept mit einer klaren Informationsarchitektur, einer eigenständigen Bildwelt und interaktiven Elementen.
