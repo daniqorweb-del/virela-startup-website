@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Virela – Smart Urban Gardening",
   description:
-    "Virela bringt intelligente Bewässerung und zeitloses Design auf deinen Stadtbalkon.",
+    "Fiktives Portfolio-Konzept: Virela zeigt eine responsive Smart-Gardening-Landingpage für kleine Stadtbalkone.",
   icons: {
     icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/favicon.svg`,
   },

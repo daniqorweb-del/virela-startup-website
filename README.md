@@ -34,6 +34,30 @@ npm run dev
 
 Anschließend ist die Website unter `http://localhost:3000` erreichbar.
 
+## Produktions-Build
+
+```bash
+npm run build
+npm start
+```
+
+Der Build erzeugt eine vollständig statische Website im Ordner `out`. Dort befindet sich auch die von GitHub Pages benötigte `index.html`.
+
+## GitHub Pages
+
+Das Repository enthält einen fertigen Workflow unter `.github/workflows/deploy-pages.yml`. Nach jedem Push auf den Branch `main` wird die Website automatisch gebaut und veröffentlicht.
+
+Auf GitHub muss dafür unter **Settings → Pages → Build and deployment** als Quelle **GitHub Actions** ausgewählt sein.
+
+Falls der erste Workflow bereits vor der Aktivierung von Pages gelaufen ist, kann er unter **Actions → Virela auf GitHub Pages veröffentlichen → Run workflow** erneut gestartet werden.
+
+Live-Demo:
+
+```text
+https://daniqorweb-del.github.io/virela-startup-website/
+```
+
+Die Pfade werden beim GitHub-Build automatisch an den tatsächlichen Repositorynamen angepasst.
 
 ## Projektstruktur
 
@@ -49,3 +73,7 @@ public/
 ## Hinweis
 
 Virela ist ein frei entwickeltes, fiktives Startup-Konzept. Produkt, Kennzahlen, Personenstimmen und Anmeldefunktion dienen ausschließlich der Portfolio-Darstellung. Das Formular speichert oder versendet keine Daten.
+
+## Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz. Details stehen in der Datei `LICENSE`.

@@ -52,6 +52,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
+          <span className="demo-notice">Portfolio-Demonstrationsprojekt · Kein reales Produkt</span>
           <span className="eyebrow"><i /> Smart wachsen. Einfach genießen.</span>
           <h1>Dein Garten beginnt auf <em>zwei Quadratmetern.</em></h1>
           <p>Virela verbindet intelligente Bewässerung mit zeitlosem Design – für frische Kräuter und Gemüse mitten in der Stadt.</p>
@@ -59,7 +60,7 @@ export default function Home() {
           <div className="micro-proof"><div className="avatar-stack" aria-hidden="true"><b>A</b><b>M</b><b>J</b></div><p><strong>1.240+ Stadtgärtner:innen</strong><br />warten auf die erste Ernte.</p></div>
         </div>
         <div className="hero-visual">
-          <Image src={assetPath("/images/virela-hero.png")} width={1693} height={929} priority alt="Virela Smart Planter mit frischen Kräutern auf einem sonnigen Stadtbalkon" />
+          <Image src={assetPath("/images/virela-hero.webp")} width={1693} height={929} priority alt="Virela Smart Planter mit frischen Kräutern auf einem sonnigen Stadtbalkon" />
           <div className="status-card"><small>Feuchtigkeit</small><strong>Optimal</strong><span>68%</span></div>
           <p className="hero-caption">01 — Der smarte Stadtgarten</p>
         </div>
@@ -79,7 +80,7 @@ export default function Home() {
           <p>Sensoren messen direkt an der Wurzel. Der 12-Liter-Speicher versorgt deine Pflanzen bis zu drei Wochen lang.</p>
           <div className="meter"><span style={{width: "68%"}} /><b>68 %</b><small>optimale Feuchtigkeit</small></div>
         </article>
-        <article className="feature-image-card"><Image src={assetPath("/images/virela-detail.png")} width={1536} height={1024} alt="Feuchtigkeitssensor in der Erde neben frischem Basilikum" /><div><span>Präzise an der Wurzel</span><strong>± 2 % Messgenauigkeit</strong></div></article>
+        <article className="feature-image-card"><Image src={assetPath("/images/virela-detail.webp")} width={1536} height={1024} alt="Feuchtigkeitssensor in der Erde neben frischem Basilikum" /><div><span>Präzise an der Wurzel</span><strong>± 2 % Messgenauigkeit</strong></div></article>
         <article className="feature-card"><div><Icon type="sun" /><span className="card-number">02</span></div><h3>Versteht dein Mikroklima.</h3><p>Sonne, Temperatur und Standort fließen automatisch in den Gießplan ein.</p></article>
         <article className="feature-card accent-card"><div><Icon type="grid" /><span className="card-number">03</span></div><h3>Wächst einfach mit.</h3><p>Starte mit einem Modul und erweitere deinen Stadtgarten, wann immer du möchtest.</p><div className="module-visual"><i /><i /><i /></div></article>
       </section>
@@ -94,7 +95,7 @@ export default function Home() {
       </section>
 
       <section className="story section" id="mission">
-        <div className="story-image"><Image src={assetPath("/images/virela-lifestyle.png")} width={1774} height={887} alt="Eine junge Frau pflegt Kräuter in ihrem Stadtgarten" /><span>Berlin, 18:42 Uhr</span></div>
+        <div className="story-image"><Image src={assetPath("/images/virela-lifestyle.webp")} width={1774} height={887} alt="Eine junge Frau pflegt Kräuter in ihrem Stadtgarten" /><span>Berlin, 18:42 Uhr</span></div>
         <div className="story-copy"><span className="section-index">04 / UNSERE MISSION</span><h2>Stadtluft trifft<br /><em>Ernteglück.</em></h2><p>Wir glauben, dass gutes Essen nicht weit reisen muss. Deshalb bringen wir essbare Natur dorthin, wo Menschen leben – auf Balkone, Terrassen und in kleine Höfe.</p><blockquote>„Der kürzeste Weg zu gutem Essen beginnt vor deiner Balkontür.“</blockquote><p className="signature">— Das Virela Team</p></div>
       </section>
 
@@ -107,9 +108,9 @@ export default function Home() {
       <section className="media-section section">
         <div><span className="section-index">06 / MEDIENKIT</span><h2>Die Virela<br /><em>Bildwelt.</em></h2><p>Alle für dieses Projekt erstellten Motive kannst du direkt herunterladen.</p></div>
         <div className="download-grid">
-          <a href={assetPath("/images/virela-hero.png")} download><Image src={assetPath("/images/virela-hero.png")} width={1693} height={929} alt="Hero-Motiv Vorschau" /><span>Hero-Motiv <b>PNG ↓</b></span></a>
-          <a href={assetPath("/images/virela-lifestyle.png")} download><Image src={assetPath("/images/virela-lifestyle.png")} width={1774} height={887} alt="Lifestyle-Motiv Vorschau" /><span>Lifestyle <b>PNG ↓</b></span></a>
-          <a href={assetPath("/images/virela-detail.png")} download><Image src={assetPath("/images/virela-detail.png")} width={1536} height={1024} alt="Produktdetail Vorschau" /><span>Produktdetail <b>PNG ↓</b></span></a>
+          <a href={assetPath("/images/virela-hero.webp")} download><Image src={assetPath("/images/virela-hero.webp")} width={1693} height={929} alt="Hero-Motiv Vorschau" /><span>Hero-Motiv <b>WEBP ↓</b></span></a>
+          <a href={assetPath("/images/virela-lifestyle.webp")} download><Image src={assetPath("/images/virela-lifestyle.webp")} width={1774} height={887} alt="Lifestyle-Motiv Vorschau" /><span>Lifestyle <b>WEBP ↓</b></span></a>
+          <a href={assetPath("/images/virela-detail.webp")} download><Image src={assetPath("/images/virela-detail.webp")} width={1536} height={1024} alt="Produktdetail Vorschau" /><span>Produktdetail <b>WEBP ↓</b></span></a>
         </div>
       </section>
 
